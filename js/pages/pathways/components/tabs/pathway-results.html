@@ -25,7 +25,7 @@
 
 	<h3 data-bind="css: $component.classes('analysis-name')"><span data-bind="text: ko.i18n('pathways.manager.executions.results.title', 'Pathways Analysis for')"></span> <span data-bind="text: pathwaysObserver().title"></span></h3>
 
-	<nav-pills params="{ pills: $component.pills, selected: $component.mode}"></nav-pills>
+	<nav-pills data-react="true" params="{ pills: $component.pills, selected: $component.mode}"></nav-pills>
 
 	<!-- ko with: pathwaysObserver -->
 	<div data-bind="if: $component.mode() == $component.MODE_VISUALIZATION, css: $component.classes('content')">

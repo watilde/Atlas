@@ -10,7 +10,8 @@
     "build:dev": "node build/optimize.js && npm run compress",
     "build:docker": "npm run clean && npm run genversion && npm run build:dev && npm prune --production",
     "compress": "terser ./js/assets/bundle/bundle.js -o ./js/assets/bundle/bundle.js -c --source-map",
-    "genversion": "genversion -s js/version/version.js && r_js -convert js/version js/ && rimraf js/version"
+    "genversion": "genversion -s js/version/version.js && r_js -convert js/version js/ && rimraf js/version",
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
