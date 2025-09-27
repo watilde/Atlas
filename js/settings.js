@@ -132,6 +132,8 @@ const settingsObject = {
 
 		"moment": "../node_modules/moment/moment",
 		"querystring": "../node_modules/qs/dist/qs",
+		"react": "../node_modules/react/umd/react.production.min",
+		"react-dom": "../node_modules/react-dom/umd/react-dom.production.min",
 
 		"bootstrap-select": "../node_modules/bootstrap-select/dist/js/bootstrap-select",
 		"less-js": "../node_modules/less/dist/less",

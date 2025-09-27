@@ -26,4 +26,5 @@ define(function (require) {
 	var childChangesExtender = require('./childChangesExtender');
 	var alphaNumericExtender = require('./alphaNumericExtender');
 	var i18nBinding = require('./i18nBinding');
+	var reactComponent = require('./reactComponent');
 });

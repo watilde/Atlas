@@ -90,6 +90,8 @@
     "prismjs": "1.29.0",
     "qs": "6.11.0",
     "querystring": "0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "svgsaver": "0.9.0",
     "urijs": "1.19.11",
     "venn.js": "0.2.20",
